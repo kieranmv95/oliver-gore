@@ -17,6 +17,7 @@
     "gatsby-plugin-sharp": "^2.0.23",
     "gatsby-source-filesystem": "^2.0.23",
     "gatsby-transformer-sharp": "^2.1.15",
+    "gh-pages": "^2.0.1",
     "include-media": "^1.4.9",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
