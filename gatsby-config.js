@@ -6,6 +6,14 @@ module.exports = {
     siteUrl: `https://www.olivergore.co.uk`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Montserrat\:400,800,900`
+        ]
+      }
+    },
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,

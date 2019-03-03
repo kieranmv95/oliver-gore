@@ -1,13 +1,10 @@
 import React from "react"
 
+import "../sass/master.scss"
+
 const Layout = ({ children }) => (
   <>
-    <div>
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}
-      </footer>
-    </div>
+    <main>{children}</main>
   </>
 )
 
