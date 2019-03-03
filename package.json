@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "oliver-gore",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Oliver gores website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kieran Venison <kieranmv95@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.1.19",
@@ -36,7 +36,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
