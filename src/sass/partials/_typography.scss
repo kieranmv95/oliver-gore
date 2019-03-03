@@ -1,0 +1,13 @@
+body {
+  font-size: $font-base-size;
+  font-family: $font-family;
+  line-height: $font-line-height;
+  background: $color-asphalt;
+  color: $color-clouds;
+}
+
+h1 {
+  font-size: 2em;
+  @include media(">=tablet") { font-size: 3em; }
+  @include media(">=desktop") { font-size: 4em; }
+}

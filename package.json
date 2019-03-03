@@ -1,18 +1,24 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "oliver-gore",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Oliver gores website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kieran Venison <kieranmv95@gmail.com>",
   "dependencies": {
+    "classnames": "^2.2.6",
     "gatsby": "^2.1.19",
     "gatsby-image": "^2.0.30",
+    "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-manifest": "^2.0.20",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.7",
+    "gatsby-plugin-robots-txt": "^1.4.0",
+    "gatsby-plugin-sass": "^2.0.10",
     "gatsby-plugin-sharp": "^2.0.23",
     "gatsby-source-filesystem": "^2.0.23",
     "gatsby-transformer-sharp": "^2.1.15",
+    "include-media": "^1.4.9",
+    "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -31,7 +37,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",

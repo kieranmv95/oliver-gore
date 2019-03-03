@@ -1,0 +1,13 @@
+@import "../../../node_modules/include-media/dist/include-media";
+
+$breakpoints: (
+  tablet: 768px,
+  desktop: 1024px
+);
+
+$font-family:       'Montserrat', sans-serif;
+$font-line-height:  1.5;
+$font-base-size:    16px;
+
+$color-asphalt:   #34495e;
+$color-clouds:    #ecf0f1;
